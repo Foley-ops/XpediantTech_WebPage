@@ -1,0 +1,74 @@
+.box1 {
+    background-color: #4a4844;
+    padding-bottom: 4em;
+}
+
+
+h1 {
+    color: #fff;
+    font-size: 1em;
+}
+
+
+ul.list-inline a {
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    transition: color 0.3s;
+}
+
+ul.list-inline a:hover {
+    color: #fbe8a6;
+}
+
+h2 {
+    color: #fff;
+    font-size: 1em;
+}
+
+div>h2 {
+    color: #fff;
+    font-size: 1em;
+}
+
+.extra-large-text {
+    font-size: 5.5em;
+
+}
+
+.small-text {
+    font-size: 1em;
+}
+
+::selection {
+    background: #fbe8a6;
+}
+
+ul.list-inline Link {
+    padding: 0 10px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.box2 {
+    background-color: #f2f1e5;
+    padding-bottom: 2em;
+}
+
+.box2 * {
+    color: #2c2927;
+}
+
+.box3 {
+    background-color: #fbe8a6;
+    padding-bottom: 2em;
+}
+
+.box3 * {
+    color: #2c2927;
+}
