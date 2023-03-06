@@ -3,6 +3,12 @@
     padding-bottom: 4em;
 }
 
+.box {
+    height: 100vh;
+    background-color: #4a4844;
+    background-size: cover;
+  }
+  
 
 h1 {
     color: #fff;
@@ -32,7 +38,7 @@ div>h2 {
 }
 
 .extra-large-text {
-    font-size: 5.5em;
+    font-size: 5.5vw;
 
 }
 
@@ -63,12 +69,61 @@ ul.list-inline Link {
 .box2 * {
     color: #2c2927;
 }
+.box2 h2 {
+    font-size: 24px; 
+  }
+
 
 .box3 {
-    background-color: #fbe8a6;
+    background-color: #e0d29e;
     padding-bottom: 2em;
 }
 
 .box3 * {
     color: #2c2927;
+}
+
+.box3-img {
+    border: 10px solid #2c2927;
+    box-shadow: 0 0 10px #2c2927;
+  }
+
+.box4 {
+    padding-bottom: 2em;
+}
+
+.box4 * {
+    color: #2c2927;
+}
+
+.borderyellow {
+    border-top: 4px dotted #fbe8a6;
+}
+
+.box5 {
+    background-color: #4a4844;
+    padding-bottom: .1em;
+}
+
+.box5 * {
+    color: #fff;
+}
+
+.box5 p {
+    font-size: small;
+}
+
+ul.list-inline-bottom a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+    transition: color 0.3s;
+}
+
+ul.list-inline-bottom a:hover {
+    color: #179dd8;
+}
+
+.border-white {
+    border-top: 1px solid #fff;
 }

@@ -1,0 +1,47 @@
+.yellow-dash {
+    border-top: 4px solid #fbe8a6;
+    width: 10%;
+  }
+
+.title {
+    font-size: 10vw;
+}
+
+.dotted-border-part-top {
+    border-top: dotted 2px #4a4844;
+}
+
+.dotted-border-part-sides {
+    border-left: dotted 2px #4a4844;
+    border-right: dotted 2px  #4a4844;
+}
+
+.box3-services {
+    background-color: #e0d29e;
+}
+
+.box3-services * {
+    color: #2c2927;
+}
+
+.h2-top-text{
+    font-size: 24px;
+}
+
+
+.border-white-2 {
+    border-top: 4px dashed #fff;
+    border-bottom: 4px dashed #fff;
+}
+
+.dashed-text::before {
+    content: "";
+    display: inline-block;
+    height: 2px;
+    width: 12px;
+    background-color: #4a4844;
+    vertical-align: middle;
+    margin-right: 5px;
+    margin-left: -20px;
+  }
+  
