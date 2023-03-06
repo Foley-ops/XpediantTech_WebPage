@@ -46,8 +46,8 @@ function Contact() {
 
                 </div>
             </div>
-            <div className='box3'>
-                <div className='row container'>
+            <div className='box3 d-flex justify-content-center'>
+                <div className='row container '>
                     <div className='col mt-5'>
                         <h1 className='mb-5'>We are here to help!</h1>
                         <div>
