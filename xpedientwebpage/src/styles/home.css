@@ -1,5 +1,5 @@
 .box1 {
-    background-color: #4a4844;
+    background-color: #4D4D4D;
     padding-bottom: 4em;
 }
 
@@ -24,7 +24,7 @@ ul.list-inline a {
 }
 
 ul.list-inline a:hover {
-    color: #fbe8a6;
+    color: #B46060;
 }
 
 h2 {
@@ -47,7 +47,7 @@ div>h2 {
 }
 
 ::selection {
-    background: #fbe8a6;
+    background: #966060;
 }
 
 ul.list-inline Link {
@@ -62,7 +62,7 @@ ul.list-inline Link {
 
 
 .box2 {
-    background-color: #f2f1e5;
+    background-color: #FFBF9B;
     padding-bottom: 2em;
 }
 
@@ -75,7 +75,7 @@ ul.list-inline Link {
 
 
 .box3 {
-    background-color: #e0d29e;
+    background-color: #FFBF9B;
     padding-bottom: 2em;
 }
 
@@ -84,8 +84,12 @@ ul.list-inline Link {
 }
 
 .box3-img {
-    border: 10px solid #2c2927;
-    box-shadow: 0 0 10px #2c2927;
+    border-width: 10px;
+    border-style: solid;
+    border-image: linear-gradient(to bottom right, #FFBF9B, #2c2927 95%) 2 5;
+    border-radius: 10px;
+    clip-path: inset(0 round 10px);
+
   }
 
 .box4 {
@@ -94,10 +98,6 @@ ul.list-inline Link {
 
 .box4 * {
     color: #2c2927;
-}
-
-.borderyellow {
-    border-top: 4px dotted #fbe8a6;
 }
 
 .box5 {
@@ -121,9 +121,27 @@ ul.list-inline-bottom a {
 }
 
 ul.list-inline-bottom a:hover {
-    color: #179dd8;
+    color: #B46060;
 }
 
-.border-white {
-    border-top: 1px solid #fff;
+
+.client-box {
+    background-color: #FFBF9B;
 }
+
+.text-shrink {
+    font-size: 16px;
+    line-height: 1.2;
+    transition: font-size 0.3s;
+  }
+
+  @media (min-width: 1080px) {
+    .text-shrink {
+      font-size: 24px;
+    }
+
+  }
+
+  .indented-first-line {
+    text-indent: 20px;
+  }

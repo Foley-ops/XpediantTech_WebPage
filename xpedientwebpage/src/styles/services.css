@@ -1,5 +1,5 @@
 .yellow-dash {
-    border-top: 4px solid #fbe8a6;
+    border-top: 8px solid #B46060;
     width: 10%;
   }
 
@@ -17,7 +17,11 @@
 }
 
 .box3-services {
-    background-color: #e0d29e;
+    background-color: #FFBF9B;
+}
+
+.box3-background {
+    background-color: #FFBF9B;
 }
 
 .box3-services * {
