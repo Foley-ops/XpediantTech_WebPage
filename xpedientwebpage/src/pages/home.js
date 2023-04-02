@@ -52,7 +52,7 @@ function Home() {
 
 
                             <h1 className=' small-text pt-4'>
-                                <i className=' fas fa-arrow-down' style={{ color: 'white' }}></i>
+                                
                                 Find out how!
                             </h1>
                         </div>
